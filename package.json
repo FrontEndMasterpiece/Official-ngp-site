@@ -1,0 +1,19 @@
+{
+  "name": "ngpmusicproject1",
+  "version": "1.0.0",
+  "description": "Landing page for ngpmusic project 1",
+  "main": "index.js",
+  "scripts": {
+"compile:sass": "node-sass sass/main.scss css/style.css -w" 
+  },
+
+  "author": "Keen G",
+  "license": "ISC",
+
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
